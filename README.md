@@ -8,5 +8,5 @@ Packet filtering firewall is a network security technique that is used to contro
 In this simple firewall, I added 4 interfaces and these interfaces are running on threads for receive the traffic simultaneously. All the traffic forward into one funtion and It checks the packets against the set of rules defines in text file. If there no rule matches, the traffic allowed and forwarded to its destination.
 
 # Top Features
-* Work with 4 interfaces
+* Four interfaces for filtering
 * Port level and IP level blocking
