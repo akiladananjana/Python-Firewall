@@ -10,3 +10,25 @@ In this simple firewall, I added 4 interfaces and these interfaces are running o
 # Top Features
 * Four interfaces for filtering
 * Port level and IP level blocking
+
+## Define Firewall Rules in confing.ini as follows
+
+====By default all the traffic allowed!====
+
+Empty the file for allow all the traffic </br>
+
+### Rule Syntax <br/>  
+DENY <SRC_IP> <SRC_PORT> <DST_IP> <DST_PORT> 
+
+
+Eg:-
+
+192.168.1.10 20 192.168.1.20 50 <br/> 
+Block any packet with Source 192.168.1.10:20 to Dest 192.168.1.20:50
+
+
+DENY ANY ANY 192.168.1.10 80 <br/> 
+Block packet from any source that destinationed to ip 192.168.1.20 and port 80
+
+
+
