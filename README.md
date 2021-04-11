@@ -31,4 +31,16 @@ DENY ANY ANY 192.168.1.10 80 <br/>
 Block packet from any source that destinationed to ip 192.168.1.20 and port 80
 
 
+## Requirements to run this Firewall
+* Four Interfaces with Static IP configured
+* All the interfaces should be active
+* Python 3.8.2 (tested)
+* Ubuntu 20.04 box (tested)
 
+## How to fire this firewall?
+
+* Enter into python virtual environment </br>
+``` source env1/bin/activate ```
+
+* Execute </br>
+``` python3 firewall.py ```
