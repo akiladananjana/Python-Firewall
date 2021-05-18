@@ -36,6 +36,7 @@ Block packet from any source that destinationed to ip 192.168.1.20 and port 80
 * All the interfaces should be active
 * Python 3.8.2 (tested)
 * Ubuntu 20.04 box (tested)
+* Bit of knowledge in Python Virtual Environment
 
 ## How to fire this firewall?
 
